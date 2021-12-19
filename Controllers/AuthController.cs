@@ -9,9 +9,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.Extensions.Configuration;
 using System.IdentityModel.Tokens.Jwt;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AspNetCoreWebAPI.Controllers
 {
+     
     [ApiController]
     [Route("[controller]")]
     public class AuthController : ControllerBase
@@ -79,6 +81,12 @@ namespace AspNetCoreWebAPI.Controllers
             }
             return "ko";
 
+        }
+        [AllowAnonymous]
+        [HttpGet]
+        public  String Get()
+        {
+            return ("HI");
         }
     }
 }

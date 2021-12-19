@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\study\\git\\webapi2\\webapi2.csproj": {}
+    "D:\\study\\Git\\webapi2\\webapi2.csproj": {}
   },
   "projects": {
-    "D:\\study\\git\\webapi2\\webapi2.csproj": {
+    "D:\\study\\Git\\webapi2\\webapi2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\study\\git\\webapi2\\webapi2.csproj",
+        "projectUniqueName": "D:\\study\\Git\\webapi2\\webapi2.csproj",
         "projectName": "webapi2",
-        "projectPath": "D:\\study\\git\\webapi2\\webapi2.csproj",
+        "projectPath": "D:\\study\\Git\\webapi2\\webapi2.csproj",
         "packagesPath": "C:\\Users\\arunk\\.nuget\\packages\\",
-        "outputPath": "D:\\study\\git\\webapi2\\obj\\",
+        "outputPath": "D:\\study\\Git\\webapi2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arunk\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +40,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[6.0.1, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.15.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -51,6 +59,14 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.15.0, )"
+            },
+            "system.data.sqlclient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
             }
           },
           "imports": [
