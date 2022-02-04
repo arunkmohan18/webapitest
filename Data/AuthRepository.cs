@@ -1,9 +1,4 @@
 using System.Data;
-<<<<<<< HEAD
-=======
-using System;
-using System.Threading.Tasks;
->>>>>>> 5611c30c7aaf42e8290b28a4c408ba7c2459177b
 using AspNetCoreWebAPI.Models;
 using AspNetCoreWebAPI.DataLayer;
 
@@ -11,11 +6,7 @@ namespace AspNetCoreWebAPI.Data
 {
     public class AuthRepository : IAuthRepository
     {
-<<<<<<< HEAD
-        
-=======
->>>>>>> 5611c30c7aaf42e8290b28a4c408ba7c2459177b
-        public async Task<Users> Login(string username, string Pasword)
+ public async Task<Users> Login(string username, string Pasword)
         {
             Users MyUser = null;
             DataConnection dc = new DataConnection();

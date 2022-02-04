@@ -9,13 +9,10 @@ namespace AspNetCoreWebAPI.Data
 {
     public class BookRepository:IBookRepository
     {
-<<<<<<< HEAD
-       
-=======
+
         public BookRepository()
         {
         }
->>>>>>> 5611c30c7aaf42e8290b28a4c408ba7c2459177b
 
         public async Task<List<Books>> GetBooks()
         {
