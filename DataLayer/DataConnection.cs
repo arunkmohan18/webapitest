@@ -15,7 +15,11 @@ namespace AspNetCoreWebAPI.DataLayer
         private SqlCommand cmd;
 
         private DataTable dt;
+<<<<<<< HEAD
         const string sConnString = "Server=DESKTOP-GTQGN41;Database=BookStall;Trusted_Connection=True;";
+=======
+        const string sConnString = "Server=DESKTOP-BTJA4IB;Database=BookStall;Trusted_Connection=True;";
+>>>>>>> 5611c30c7aaf42e8290b28a4c408ba7c2459177b
         public long Save(string TableName,
                          object ObjItem,
                          bool IsReturnID,
