@@ -1,0 +1,7 @@
+D:\study\Git\webapi2\obj\release\net6.0\webapi2.csproj.AssemblyReference.cache
+D:\study\Git\webapi2\obj\release\net6.0\webapi2.GeneratedMSBuildEditorConfig.editorconfig
+D:\study\Git\webapi2\obj\release\net6.0\webapi2.AssemblyInfoInputs.cache
+D:\study\Git\webapi2\obj\release\net6.0\webapi2.AssemblyInfo.cs
+D:\study\Git\webapi2\obj\release\net6.0\webapi2.csproj.CoreCompileInputs.cache
+D:\study\Git\webapi2\obj\release\net6.0\webapi2.MvcApplicationPartsAssemblyInfo.cs
+D:\study\Git\webapi2\obj\release\net6.0\webapi2.MvcApplicationPartsAssemblyInfo.cache
